@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Agricultural Blockchain App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Work+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Agricultural Supply Chain Dapp</h1>
+    <h2>Public Id : <span class="black" id="SenderBalance"></span> </h2>
+    <h2>Select one of the following options once selected this account will always act as the selected actor, you can
+      still reconfigure the account in the server side using the serverConfig.json file</h2>
+    <div class="btn-group" id="form-selector" align="center">
+      <a type="button" class="btn1 btn-selector " id="sign-up-btn" onclick="joinAsFarmer()">Farmer</a>
+      <a type="button" class="btn1 btn-selector" id="log-in-btn" onclick="joinAsQualityTester()">Quality Testing</a>
+      <a type="button" class="btn1 btn-selector" id="payments-btn" onclick="joinAsCustomer()">Customer</a>
+      <a type="button" class="btn1 btn-selector" id="finance-btn" onclick="joinAsMicroFin()">Micro-Finance</a>
+    </div>
+  </div>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./javascripts/easy.qrcode.min.js"></script>
+  <script src="./app.js"></script>
+
+</body>
+
+</html>

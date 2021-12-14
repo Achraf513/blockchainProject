@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Agricultural Blockchain App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Work+Sans:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+
+<body>
+  <div id="contentFarmerDiv">
+    <h1>Agricultural Supply Chain Dapp</h1>
+    <h4>Public Id : <span class="black" id="SenderBalance"></span> </h4>
+    <div class="form" id="sign-up-form">
+      <h2 class="form-title">Enter Details</h2>
+      <input type="text" class="input-std" id="fid" placeholder="Farmer Id">
+      <input type="text" class="input-std" id="fname" placeholder="Farmers Name">
+      <input type="text" class="input-std" id="loc" placeholder="Location">
+      <input type="text" class="input-std" id="crop" placeholder="Crop Name">
+      <input type="text" class="input-std" id="contact" placeholder="Phone">
+      <input type="text" class="input-std" id="quantity" placeholder="Quantity">
+      <input type="text" class="input-std" id="exprice" placeholder="Expected Price">
+      <button type="button" class="btn-submit" id="setvalue" onclick="set()">Submit Details!</button>
+      <span id="status"></span>
+    </div>
+  </div>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./javascripts/easy.qrcode.min.js"></script>
+  <script src="./app.js"></script>
+
+</body>
+
+</html>

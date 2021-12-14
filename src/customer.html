@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Agricultural Blockchain App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Work+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="./app.css" rel='stylesheet' type='text/css'>
+    <script src="./app.js"></script>
+</head>
+
+<body>
+
+    <div id="contentCustomerDiv">
+        <h1>Agricultural Supply Chain Dapp</h1>
+        <h4>Public Id : <span class="black" id="SenderBalance"></span> </h4>
+        <div class="form" id="payments-form">
+            <h2 class="form-title">Customer</h2>
+            <table>
+                <input type="text" class="input-std" id="getfid" placeholder="Farmer Id">
+                <tr>
+                    <td><b><label class="black">Farmer Id</label></td>
+                    <td>:</td></b>
+                    <td><span class="black" span id="cgetval1"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Farmer Name</label></td>
+                    <td>:</td></b>
+                    <td><span class="black" span id="cgetval2"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Location</label></td>
+                    <td>:</td></b>
+                    <td><span class="black" span id="cgetval3"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Crop</label></td>
+                    <td>:</td></b>
+                    <td><span class="black" span id="cgetval4"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Phone</label></td>
+                    <td>:</td></b>
+                    <td><span class="black" span id="cgetval5"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Quantity</label></td>
+                    <td>:</td></b>
+                    <td><span class="black" span id="cgetval6"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Expected price</label>
+                    <td>:</td>
+                    </td></b>
+                    <td><span class="black" span id="cgetval7"></span></td>
+                </tr>
+                <input type="text" class="input-std" id="lotnum" placeholder="Lot number">
+                <tr>
+                    <td><b><label class="black">Lot Number</label>
+                    <td>:</td>
+                    </td></b>
+                    <td><span class="black" span id="cgetval8"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Grade</label>
+                    <td>:</td>
+                    </td></b>
+                    <td><span class="black" span id="cgetval9"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">MRP</label>
+                    <td>:</td>
+                    </td></b>
+                    <td><span class="black" span id="cgetval10"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Test Date</label>
+                    <td>:</td>
+                    </td></b>
+                    <td><span class="black" span id="cgetval11"></span></td>
+                </tr>
+                <tr>
+                    <td><b><label class="black">Expiry Date</label>
+                    <td>:</td>
+                    </td></b>
+                    <td><span class="black" span id="cgetval12"></span></td>
+                </tr>
+            </table>
+            <button type="button" class="btn-submit" id="getcustval" onclick="getQ();cgetQ();">Get Value</button>
+        </div>
+    </div>
+    <link href="./app.css" rel='stylesheet' type='text/css'>
+    <script src="./javascripts/easy.qrcode.min.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
